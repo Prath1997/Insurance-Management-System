@@ -25,7 +25,7 @@ public class LoginTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA3\\Desktop\\prathamesh\\chromedriver.exe");
 		bo= new ChromeDriver();
 		bo.get(bpath);
-		bo.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+		bo.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 		
 		/*@Parameters("browser")
@@ -36,7 +36,7 @@ public class LoginTest {
 				System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA3\\Desktop\\prathamesh\\chromedriver.exe");
 		bo= new ChromeDriver();
 		bo.get(bpath);	
-		bo.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+		bo.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			}
 		 
 			else if(br.equalsIgnoreCase("firefox")){
@@ -44,7 +44,7 @@ public class LoginTest {
 				System.setProperty("webdriver.gecko.driver","C:\\Users\\QA3\\Desktop\\prathamesh\\geckodriver.exe");
 				bo=new FirefoxDriver();
 				bo.get(bpath);
-				bo.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+				bo.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 					}
 	  }*/
 		
